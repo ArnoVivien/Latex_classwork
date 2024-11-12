@@ -1,0 +1,75 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage{enumitem}
+\usepackage{geometry}
+\geometry{left=1in, right=1in, top=1in, bottom=1in}
+\setlength{\parindent}{0pt}
+\setlist{nosep}
+\title{\textbf{End Semester Examination - MCA 1st \\ 2024 \\ (C Language)}}
+
+\begin{document}
+\maketitle
+\begin{center}
+\textbf{Full Marks: 60 \\ Pass Marks: 27 \\ Time: Three hours}
+\end{center}
+
+\vspace{10pt}
+\section*{\centering Section A}
+
+\begin{enumerate}[label=\textbf{Q\arabic*.}]
+    \item \textbf{Explain the memory management techniques used in C.} \hfill (5 Marks)
+    
+    \item \textbf{Define and analyze pointers and their applications in C.} \hfill (5 Marks)
+    
+    \item \textbf{Illustrate the significance of structures and unions in C.} \hfill (5 Marks)
+    
+    \item \textbf{What is the role of preprocessor directives in C?} \hfill (5 Marks)
+\end{enumerate}
+
+\vspace{10pt}
+
+\section*{\centering Section B}
+
+\begin{enumerate}[label=\textbf{Q\arabic*.}, start=5]
+    
+    \item \textbf{Write a program to implement functions in C.} \hfill (10 Marks)
+    
+    \item \textbf{Implement a file handling program in C to manage student records.} The program should be able to:
+    \begin{itemize}
+        \item Add new records
+        \item Display all records
+        \item Search for a student by their ID
+    \end{itemize}
+    \hfill (10 Marks)
+    
+    \item \textbf{Explain the concept of structures and how it is different from unions in C.} \hfill (10 Marks)
+\end{enumerate}
+
+\vspace{10pt}
+
+\section*{\centering Section C}
+
+\begin{enumerate}[label=\textbf{Q\arabic*.}, start=8]
+
+    \item \textbf{Analyze the following code snippet and identify any potential issues:}
+    \begin{verbatim}
+    #include <stdio.h>
+
+    void swap(int *a, int *b) {
+        int temp = *a;
+        *a = *b;
+        *b = temp;
+    }
+
+    int main() {
+        int x = 10, y = 20;
+        swap(x, y);
+        printf("x = %d, y = %d", x, y);
+        return 0;
+    }
+    \end{verbatim}
+    \textbf{Explain the output and suggest corrections, if any.} \hfill (5 Marks)
+    
+    \item \textbf{Explain call by value and call by reference with examples.} \hfill (5 Marks)
+\end{enumerate}
+
+\end{document}
